@@ -247,7 +247,7 @@ source install/setup.bash
 Run the obstacle avoidance node:
 
 ```bash
-ros2 launch turtlebot3_obstacle_avoidance obstacle_avoidance.launch.py
+ros2 launch turtlebot3_obstacle_avoidance robot_launch.py
 ```
 
 ---

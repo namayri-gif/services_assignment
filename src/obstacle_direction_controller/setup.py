@@ -1,8 +1,6 @@
 from setuptools import find_packages, setup
-import os
-from glob import glob
 
-package_name = 'turtlebot3_obstacle_avoidance'
+package_name = 'obstacle_direction_controller'
 
 setup(
     name=package_name,
@@ -12,13 +10,11 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),  
-        (os.path.join('share', package_name, 'config'), glob('config/*.yaml')), 
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='root',
-    maintainer_email='services_and_actions@local',
+    maintainer_email='root@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
@@ -28,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'obstacle_avoidance_node = turtlebot3_obstacle_avoidance.obstacle_avoidance_node:main',
+            'direction_autopilot_node = obstacle_direction_controller.direction_autopilot_node:main',
         ],
     },
 )

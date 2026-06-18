@@ -1,6 +1,0 @@
-obstacle_avoidance_node:
-  ros__parameters:
-    forward_threshold: 0.5
-    clear_threshold: 1.0
-    turn_threshold: 0.4
-    mode: "CAUTIOUS"

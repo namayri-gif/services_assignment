@@ -123,15 +123,15 @@ ros2 service call /set_direction obstacle_direction_interfaces/srv/SetDirection 
 ---
 ### Expected Output
 Terminal 1:
-```
+
 <img width="1199" height="346" alt="image" src="https://github.com/user-attachments/assets/005b7b97-8305-41f2-91d9-8fbbea198443" />
 
-```
+
 Terminal 2:
-```
+
 <img width="1486" height="244" alt="image" src="https://github.com/user-attachments/assets/7472e7aa-b39a-49ac-bf69-0e8b3415587e" />
 
-```
+
 ---
 ## Verification
 The system was tested using TurtleBot3 in Gazebo simulation. The following was verified:

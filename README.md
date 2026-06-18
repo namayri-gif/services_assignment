@@ -1,4 +1,4 @@
-# Task 3: TurtleBot3 ROS 2 Action Mission System
+# Assingment 2: Obstacle Avoidance Robot with Direction Control
 
 ## Overview
 This project implements a ROS 2 Services-based mission system for TurtleBot3 using Python.
